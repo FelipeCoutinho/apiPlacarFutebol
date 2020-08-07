@@ -9,7 +9,6 @@ const p = new Partida1()
 //Listar
 export const getPartida = async (req: Request, res: Response)=>{
     const partida = await getRepository(Partida).find()
-    console.log(p.mudaNome('Felipe'))
     return res.json(partida)
 }
 

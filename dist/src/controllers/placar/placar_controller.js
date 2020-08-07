@@ -49,7 +49,6 @@ exports.getPartida = function (req, res) { return __awaiter(void 0, void 0, void
             case 0: return [4 /*yield*/, typeorm_1.getRepository(partida_1.default).find()];
             case 1:
                 partida = _a.sent();
-                console.log(p.mudaNome('Felipe'));
                 return [2 /*return*/, res.json(partida)];
         }
     });
