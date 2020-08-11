@@ -4,7 +4,7 @@ module.exports ={
    "synchronize": true,
    "logging": false,
    "entities": [
-      "src/dist/src/entity/**/*.ts"
+      "src/entity/**/*.ts"
    ],
    "migrations": [
       "src/migration/**/*.ts"

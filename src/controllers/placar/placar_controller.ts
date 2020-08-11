@@ -1,7 +1,11 @@
 import {Partida} from '../../entity/partida'
+import Partida1  from '../../classes/placar'
+
 import { getRepository } from 'typeorm'
 import { Request, Response } from 'express'
 
+
+const p = new Partida1()
 //Listar
 export const getPartida = async (req: Request, res: Response)=>{
     const partida = await getRepository(Partida).find()
