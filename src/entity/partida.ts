@@ -1,7 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn } from 'typeorm'
 
 @Entity()
-export default class Partida{
+export class Partida{
     @PrimaryGeneratedColumn()
     id: number
     @Column()

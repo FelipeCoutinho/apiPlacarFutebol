@@ -1,4 +1,4 @@
-import { getPartida, createPartida, deletePartida } from './src/controllers/placar/placar_controller'
+import { getPartida, createPartida, deletePartida } from './src/controllers/partida/partida_controller';
 import { Router } from 'express'
 const Routes =  Router();
 
